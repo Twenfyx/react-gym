@@ -16,7 +16,7 @@ function Classes(){
                 </div>
                 <div className="photos-positions">
                 <div className="photos">
-               
+                
                     <div className="div1"><img src={yogaPhoto} alt="swimming pool" /> </div>
                     <div className="div2"><img src={karatePhoto} alt="swimming pool" /> </div>
                     <div className="div3"><img src={swimmingPhoto} alt="swimming pool" /> </div>
