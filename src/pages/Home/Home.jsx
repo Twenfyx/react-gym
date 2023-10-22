@@ -1,10 +1,12 @@
 import React from  'react';
-import Header from '../../components/header/Header';
+import FirstView from '../../components/firstView/FirstView';
+import Classes from '../../components/classes/Classes';
 function Home() {
     return(
         <div>
-        <Header />
-
+        <FirstView />
+        <Classes/>
+    
         </div>
        
     )

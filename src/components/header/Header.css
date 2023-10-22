@@ -1,8 +1,7 @@
 .positions{
     display: flex;
     justify-content: space-around;
-    font-size: 10px;
-
-
+    font-size: 6px;
+    color:white
 }
 
