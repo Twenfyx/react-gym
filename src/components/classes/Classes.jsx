@@ -24,7 +24,7 @@ function Classes(){
                     <div className="div5"><img src={calisthenicsPhoto} alt="swimming pool" /> </div>
                     <div className="div6"><img src={cardioPhoto} alt="swimming pool" /> </div>
 
-                </div>
+                </div> 
             </div>
         </div>
         </div>
