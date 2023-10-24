@@ -1,12 +1,12 @@
 import React from "react";
-
+import styles from "./Coaches.css"
 
 function Coaches(){
     return (
-        <div>
-            this is coaches
+        <div className={styles.drawer}>
+            Our Couches
         </div>
     )
 }
 
-export default Coaches;
+export default Coaches; 

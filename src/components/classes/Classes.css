@@ -1,12 +1,3 @@
-/* .photos{
-    display: flex;
-    justify-content: center; 
-    align-items: center; 
-    height: 100vh;
-} */
-.classes{
-    /* background-color: rgb(255, 230, 230); */
-}
 .header h1{
     margin:0;
     padding-top:5vh;
@@ -19,7 +10,6 @@
     grid-template-rows: repeat(2, 1fr) repeat(2, 0);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
-   
     }
     
     .div1 { grid-area: 1 / 1 / 2 / 3; }
@@ -41,3 +31,4 @@
 
 padding: 50px 200px 100px 200px;
 }
+
