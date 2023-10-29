@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "./Coaches.css"
+import styles from "./Coaches.module.css"
 
 function Coaches(){
     return (

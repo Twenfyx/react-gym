@@ -1,10 +1,10 @@
 import React from 'react';
-import styles from './Header.css';
+import styles from './Header.module.css';
 
 function Header() {
     return (
         <div className={styles}>
-            <div className='positions'>
+            <div className={styles.positions}>
                 <h1>Home</h1>
                 <h1>About us</h1>
                 <h1>Pricing</h1>

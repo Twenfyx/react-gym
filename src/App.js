@@ -1,10 +1,10 @@
-import './App.css';
+import styles from './App.module.css';
 import React from 'react';
 import Home from './pages/Home/Home';
 
 function App() {
   return (
-    <div className='main'>
+    <div className={styles.main}>
 
    <Home />
   
