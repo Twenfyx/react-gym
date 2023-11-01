@@ -15,7 +15,7 @@ function Header() {
                 <h1 className={styles.text}>Contact</h1>
                 </div>
                 <div className={styles.join}>
-                <h1 className={styles.text }>Sign in</h1>
+                <h1 className={styles.text}>Sign in</h1>
                 </div>
         </div>
     );
