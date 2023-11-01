@@ -17,17 +17,17 @@ function Classes(){
                 <div className={styles.photosPositions}>
                 <div className={styles.photos}>
                 
-                    <div className={styles.div1}><img src={yogaPhoto} alt="swimming pool" /> </div>
-                    <div className={styles.div2}><img src={karatePhoto} alt="swimming pool" /> </div>
-                    <div className={styles.div3}><img src={swimmingPhoto} alt="swimming pool" /> </div>
-                    <div className={styles.div4}><img src={gymPhoto} alt="swimming pool" /> </div>
-                    <div className={styles.div5}><img src={calisthenicsPhoto} alt="swimming pool" /> </div>
-                    <div className={styles.div6}><img src={cardioPhoto} alt="swimming pool" /> </div>
+                    <div className={styles.div1}><img src={yogaPhoto} alt="yoga photo" /> </div>
+                    <div className={styles.div2}><img src={calisthenicsPhoto} alt="calisthenics photo" /> </div>
+                    <div className={styles.div3}><img src={cardioPhoto} alt="cardio photo" /> </div>
+                    <div className={styles.div4}><img src={karatePhoto} alt="karate photo" /> </div>
+                    <div className={styles.div5}><img src={swimmingPhoto} alt="swimming pool" /> </div>
+                    <div className={styles.div6}><img src={gymPhoto} alt="gym photo" /> </div>
                     
                 </div>
             </div>
         </div>
-        <hr/>
+     
         </div>
     )
 }
