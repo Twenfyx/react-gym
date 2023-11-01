@@ -1,7 +1,33 @@
-.positions{
+.main{
     display: flex;
     justify-content: space-around;
     font-size: 6px;
     color:white;
+    padding-top: 10px;
+    /* background-color: black; */
 }
+
+.navigation{
+    width: 40vh;
+    display: flex;
+    justify-content: space-between;
+
+}
+.text{
+    font-size: 2.5em;
+    cursor: pointer;
+}
+
+.join{
+    text-align: center;
+    height: 40px;
+    width:70px;
+    /* background-color: rgb(255, 0, 0); */
+    color:#ffffff
+}
+.join:hover{
+ color:red;
+ 
+}
+
 
