@@ -5,15 +5,39 @@ import machineSvg from "../../images/svg/machine.svg"
 import treadmilSvg from "../../images/svg/treadmill.svg"
 import chestSvg from "../../images/svg/chest.svg"
 
+import instagramSvg from "../../images/socialMedia/instagram.svg"
+import facebookSvg from "../../images/socialMedia/facebook.svg"
+import discordSvg from "../../images/socialMedia/discord.svg"
+
 function Hero(){
     return(
         <div className={styles.main}>
             <div className={styles.photo}>
             <Header/>
+
             <div className={styles.container}>
-                <h1 className={styles.mainText}>Join our community</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti voluptatum nam numquam odit assumenda ex itaque consequatur beatae, delectus fugiat repudiandae nostrum sed earum. Eos doloremque consequatur non exercitationem ad.</p>
+                <div className={styles.leftSide}>
+                    <div className={styles.share}>
+                        <p>SHARE</p>
+
+                        <div className={styles.line}></div>
+                        <div className={styles.socialMediaSvg}>
+                            <img src={instagramSvg} alt="" />
+                            <img src={facebookSvg} alt="" />
+                            <img src={discordSvg} alt="" />
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div className={styles.rightSide}>
+                <h1 className={styles.mainText}>JOIN OUR COMMUNITY</h1>
+                <p >Our gym is not just a place to work out<br />
+                     it's a destination for personal <br /> growth and success</p>
             </div>
+            </div>
+
+
                 <div className={styles.blocks}>
                     <div className={styles.block}>
                         <img className={styles.svg} src={chestSvg} alt="" />

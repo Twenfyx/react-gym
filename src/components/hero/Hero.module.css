@@ -7,36 +7,71 @@
     background-position: center center;
 }
 
-
 .container{
     display: flex;
-    align-items: flex-end;
-    
-    flex-direction: column;
+    /* justify-content: space-evenly; */
     height: 90vh;
     color: rgb(0, 0, 0);
-    margin-top: 4.5rem;
-    margin-right: 4rem;
-    
+    margin-right: 4rem; 
 }
 
+
+
+.share p{
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    font-size: 1em;
+    margin-left: 0;
+}
+.line{
+    background-color: red;
+    height: 3rem;
+    width:0.3rem;
+    margin-left: 0.5rem;
+    margin-top: 0.3em;
+    margin-bottom: 0.3rem;
+}
+
+.socialMediaSvg img{
+    width:1.2rem;
+    height: 1.2rem;
+    display: block;
+    margin-top:0.5rem;
+}
+
+.leftSide{
+    margin-top: 11rem;
+    margin-left: 3rem;
+}
+
+.rightSide{
+    margin-left:58%;
+    margin-top: 5.5rem;
+}
 .mainText{
-    color:black;
-    font-size: 3rem;
-    
-}
+    color:rgb(0, 0, 0);
+    font-size: 2.5rem;
+    margin-bottom:0px;
+    /* width:70% */
 
-.container p{
-    width:16em;
+}
+.rightSide p{
+    margin-left: 2.8rem;
+    font-size: 1.3rem;
+    width:18em;
     text-align: center;
-    margin-right: 6rem;
-    color:grey
+    margin-right: 9rem;
+    margin-top: 0.2rem;
+    color:grey;
+    
+    /* text-transform: uppercase; */
 }
 
 .blocks{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    padding-top: 4.5rem;
 }
 .block{
     background-color: rgb(255, 255, 255);
@@ -52,9 +87,9 @@
     color:grey;
     padding-top: 1rem;
 }
+
 .svg{
     margin-left: 3.8rem;
     margin-top: 2rem;
     height: 60%;
 }
-
