@@ -36,10 +36,11 @@ padding: 125px 275px 175px 275px;
 }
 
 .classes{
-    background-image: url("../../images/classes/woman-back.jpg");
+    /* background-image: url("../../images/classes/woman-back.jpg"); */
     /* width: 100%; */
     /* height: 100vh; */
     object-fit: cover;
     background-size: cover;
     background-position: center center;
+    margin-top: 14rem;
 }

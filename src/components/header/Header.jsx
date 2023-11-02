@@ -1,12 +1,12 @@
 import React from 'react';
 import styles from './Header.module.css';
-import logo from "../../images/logo/logo.png"
+import logo from "../../images/logo/logoRed.svg"
 function Header() {
     return (
             <div className={styles.main}>
                 <div className={styles.logo}>
-                <h1 className={styles.text}>Logo</h1>
-                {/* <img src={logo} alt="" /> */}
+                {/* <h1 className={styles.text}>Logo</h1> */}
+                <img className={styles.logo} src={logo} alt="" />
                     </div>
                 <div className={styles.navigation}>
                 <h1 className={styles.text}>Home</h1>

@@ -9,7 +9,7 @@ import calisthenicsPhoto from "../../images/classes/classes-calisthenics.jpg"
 
 function Classes(){
     return(
-        <div className={styles}>
+        
             <div className={styles.classes}>
                 <div className={styles.header}>
                     <h1>Our Classes</h1>
@@ -27,8 +27,7 @@ function Classes(){
                 </div>
             </div>
         </div>
-     
-        </div>
+
     )
 }
 
