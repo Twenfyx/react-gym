@@ -4,6 +4,8 @@ import Header from "../header/Header";
 import machineSvg from "../../images/svg/machine.svg"
 import treadmilSvg from "../../images/svg/treadmill.svg"
 import chestSvg from "../../images/svg/chest.svg"
+import yogaSvg from "../../images/svg/yoga.svg"
+import shakeSvg from "../../images/svg/shake.svg"
 
 import instagramSvg from "../../images/socialMedia/instagram.svg"
 import facebookSvg from "../../images/socialMedia/facebook.svg"
@@ -19,14 +21,13 @@ function Hero(){
                 <div className={styles.leftSide}>
                     <div className={styles.share}>
                         <p>SHARE</p>
-
+                        
                         <div className={styles.line}></div>
                         <div className={styles.socialMediaSvg}>
                             <img src={instagramSvg} alt="" />
                             <img src={facebookSvg} alt="" />
                             <img src={discordSvg} alt="" />
                         </div>
-                        
                     </div>
                     
                 </div>
@@ -49,8 +50,18 @@ function Hero(){
                         <h1 className={styles.blockText}>MODERN EQUIPMENTS</h1>
                     </div>
                     <div className={styles.block}>
+                    <img className={styles.svg} src={yogaSvg} alt="" />
+                        <h1 className={styles.blockText}>DIFFERENT CLASSES</h1>
+                    </div>
+
+                    <div className={styles.block}>
                     <img className={styles.svg} src={machineSvg} alt="" />
                         <h1 className={styles.blockText}>FANCY GYM MACHINES</h1>
+                    </div>
+
+                    <div className={styles.block}>
+                    <img className={styles.svg} src={shakeSvg} alt="" />
+                        <h1 className={styles.blockText}>PROTEIN SHAKES</h1>
                     </div>
                 </div>
             
