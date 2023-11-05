@@ -3,6 +3,8 @@ import Hero from '../../components/hero/Hero';
 import Classes from '../../components/classes/Classes';
 import Coaches from '../../components/coaches/Coaches';
 import Statistics from '../../components/stats/Statistics';
+import Footer from '../../components/footer/Footer';
+
 
 function Home() {
     return(
@@ -11,7 +13,7 @@ function Home() {
         <Classes/>
         {/* <Statistics/> */}
         {/* <Coaches/> */}
-        
+        <Footer />
 
         </div>
        

@@ -5,7 +5,9 @@ function Classes(){
         
             <div className={styles.classes}>
                 <div className={styles.header}>
-                    <h1>Classes for Him and for Her</h1>
+                    <h1>The Road to Athletic Success Starts Here</h1>
+                    <h2>Our Classes</h2>
+                    
                 </div>
                 <div className={styles.container}>
                 <div className={styles.photos}>
