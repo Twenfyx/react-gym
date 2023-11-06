@@ -4,9 +4,14 @@ function Classes(){
     return(
         
             <div className={styles.classes}>
+                
+                {/* <hr className={styles.hr}/> */}
                 <div className={styles.header}>
+                    <div>
                     <h1>The Road to Athletic Success Starts Here</h1>
+                    </div>
                     <h2>Our Classes</h2>
+                    {/* <h2>The Road to Athletic Success Starts Here</h2> */}
                     
                 </div>
                 <div className={styles.container}>

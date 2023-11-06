@@ -1,26 +1,44 @@
 .classes{
     /* delete in future */
     margin-bottom: 200px;
+    
 } 
+/* .hr{
+  margin-top:12rem;
+  background-color: red;
+  height: 1px;
+} */
 .header{
-    margin: 12rem 0 8rem 0;
+    margin: 12rem 0 6rem 0;
     text-align: center;
     font-family: Montserrat,sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column
 }
+.header div{
+  display: flex;
+  justify-content: center;
 
+}
 .header h1{
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-image: url("../../images/classes/1.png"); */
+
     font-size: 2em;
     color:white;
-    background-color: rgb(0, 0, 0);
-    /* border-radius: 100px; */
+    background-color: rgb(255, 0, 0);
     display: flex;
     justify-content: center; 
     align-items: center;
-    height: 40px;
-    /* border-radius: 100px; */
+    height: 80px;
+    width:700px;
+    border-radius: 100px;
 }
 .header h2{
-    font-size: 3em;
+    font-size:  2.5rem;;
     margin-top: 1.5rem;
 
     /* display: flex;

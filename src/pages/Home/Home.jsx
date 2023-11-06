@@ -4,6 +4,7 @@ import Classes from '../../components/classes/Classes';
 import Coaches from '../../components/coaches/Coaches';
 import Statistics from '../../components/stats/Statistics';
 import Footer from '../../components/footer/Footer';
+import Map from '../../components/map/Map';
 
 
 function Home() {
@@ -13,6 +14,7 @@ function Home() {
         <Classes/>
         {/* <Statistics/> */}
         {/* <Coaches/> */}
+        <Map />
         <Footer />
 
         </div>

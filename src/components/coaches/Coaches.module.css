@@ -4,7 +4,47 @@
     margin:0;
     height: 100vh;
 }  
+/* .hr{
+    background-color:red;
+    height: 1px;
+} */
+.header{
+    margin: 0rem 0 6rem 0;
+    text-align: center;
+    font-family: Montserrat,sans-serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column
+}
+.header div{
+  display: flex;
+  justify-content: center;
 
+}
+.header h1{
+  /* background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; 
+  background-image: url("../../images/classes/1.png"); */
+
+    font-size: 2em;
+    color:white;
+    background-color: rgb(255, 0, 0);
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    height: 80px;
+    width:700px;
+    border-radius: 100px;
+}
+.header h2{
+    font-size:  2.5rem;;
+    margin-top: 1.5rem;
+
+    /* display: flex;
+    justify-content: center; 
+    align-items: center; */
+}
 .container{
     display: flex;
     justify-content: space-evenly;
@@ -19,7 +59,7 @@
 
 .coach{
     color:white;
-    height: 70vh;
-    width: 40vh;
+    height: 70px;
+    width: 40px;
     background-color: black;
 }
