@@ -12,8 +12,10 @@ function Home() {
         <div>
         <Hero />
         <Classes/>
-        {/* <Statistics/> */}
-        {/* <Coaches/> */}
+        <Statistics/>
+        <Coaches/>
+        <Statistics/>
+
         <Map />
         <Footer />
 

@@ -1,6 +1,6 @@
 .classes{
     /* delete in future */
-    margin-bottom: 200px;
+    /* margin-bottom: 200px; */
     
 } 
 /* .hr{
@@ -9,7 +9,7 @@
   height: 1px;
 } */
 .header{
-    margin: 12rem 0 6rem 0;
+    margin: 9rem 0 3rem 0;
     text-align: center;
     font-family: Montserrat,sans-serif;
     display: flex;
