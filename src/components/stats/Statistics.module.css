@@ -10,7 +10,7 @@
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    margin:5rem 0rem 5rem 0rem;
+    /* margin:5rem 0rem 5rem 0rem; */
     /* margin:0px; */
 }
 .textAmount{

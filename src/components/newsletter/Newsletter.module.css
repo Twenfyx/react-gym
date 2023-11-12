@@ -1,0 +1,9 @@
+.main{
+    background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);
+    height: 13em;
+    color:rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin:5rem 0rem 0rem 0rem;
+}

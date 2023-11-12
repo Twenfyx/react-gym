@@ -5,6 +5,8 @@ import Coaches from '../../components/coaches/Coaches';
 import Statistics from '../../components/stats/Statistics';
 import Footer from '../../components/footer/Footer';
 import Map from '../../components/map/Map';
+import Pricing from '../../components/pricing/Pricing';
+import Newsletter from '../../components/newsletter/Newsletter';
 
 
 function Home() {
@@ -15,7 +17,9 @@ function Home() {
         <Statistics/>
         <Coaches/>
         <Statistics/>
+        <Pricing />
 
+        <Newsletter />
         <Map />
         <Footer />
 

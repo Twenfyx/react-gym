@@ -34,7 +34,6 @@ function Footer(){
                 <h1>Privacy Policy | © 2023 ReactGym</h1>
                 <h1>Design by Arseni Ramanouski</h1>
             </div>
-
             </div>
         </div>
     )
