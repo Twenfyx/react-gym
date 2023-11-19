@@ -4,7 +4,14 @@ import styles from "./Newsletter.module.css";
 function Newsletter(){
     return(
         <div className={styles.main}>
-            <p>Subscribe to our newsletter</p>
+            <h1>Subscribe to our newsletter </h1>
+            <h2>Stay up to date with melon promotions and campaigns</h2>
+
+            <input type="text" name="Your name"/>
+            <input type="email" />
+
+
+            
         </div>
     )
 }

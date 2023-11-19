@@ -7,6 +7,8 @@ import Footer from '../../components/footer/Footer';
 import Map from '../../components/map/Map';
 import Pricing from '../../components/pricing/Pricing';
 import Newsletter from '../../components/newsletter/Newsletter';
+import CoachBanner from '../../components/coachBanner/CoachBanner.jsx';
+
 
 
 function Home() {
@@ -16,7 +18,7 @@ function Home() {
         <Classes/>
         <Statistics/>
         <Coaches/>
-        <Statistics/>
+        <CoachBanner />
         <Pricing />
 
         <Newsletter />
