@@ -7,7 +7,7 @@ function CoachBanner(){
                 <h1>Looking For Fitness Trainer?</h1>
             <div className={styles.btnDiv}>
 
-                <button className={styles.btn}>Purchase Now</button>
+                <button className="btn">Purchase Now</button>
             </div>
             </div>
         </div>

@@ -16,7 +16,7 @@
     display: flex;
     justify-content: center;
 }
-.btn {
+/* .btn {
     
     text-decoration: none;
     color: #ffffff;
@@ -35,4 +35,4 @@
     box-shadow: 0 0 rgba(0, 0, 0, 0.4);
     border-bottom-width: 2px;
     transform: translateY(2px);
-  }
+  } */

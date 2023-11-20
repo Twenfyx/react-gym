@@ -7,3 +7,33 @@
     align-items: center;
     margin:5rem 0rem 0rem 0rem;
 }
+
+/* .btn {
+    bottom: 60px;
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 5px;
+    width: 160px;
+    height: 40px;
+    font-weight: bold;
+    border-bottom: 4px solid #9e1720;
+    transition: 0.3s;
+    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
+    background-color: #f44336;
+  }
+  
+  .btn:hover {
+    box-shadow: 0 0 rgba(0, 0, 0, 0.4);
+    border-bottom-width: 2px;
+    transform: translateY(2px);
+  } */
+
+  input{
+    width:250px;
+    height:40px;
+    border-radius: 10px;
+    border: 1px white solid;
+    /* background-color: #ffd8da; */
+    
+  }

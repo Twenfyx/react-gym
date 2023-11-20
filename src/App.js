@@ -4,7 +4,7 @@ import Home from './pages/Home/Home';
 
 function App() {
   return (
-    <div className={styles.main}>
+    <div className="main">
 
    <Home />
   
