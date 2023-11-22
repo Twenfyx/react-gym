@@ -35,7 +35,7 @@ function Hero(){
                 <h1 className={styles.mainText}>JOIN OUR COMMUNITY</h1>
                 <p >Our gym is not just a place to work out<br />
                      it's a destination for personal <br /> growth and success</p>
-                    <button className={styles.btn}>JOIN NOW</button>
+                    <button className="btn">JOIN NOW</button>
             </div>
             </div>
 

@@ -1,125 +1,95 @@
-.photo{
-    background-image: url("../../images/main/6.png");
-    width: 100%;
+.photo {
+    background: url("../../images/main/6.png") center center/cover;
     height: 130vh;
-    object-fit: cover;
-    background-size: cover;
-    background-position: center center;
+    width: 100%;
 }
 
-.container{
+.container {
     display: flex;
     /* justify-content: space-evenly; */
     height: 90vh;
     color: rgb(0, 0, 0);
-    margin-right: 4rem; 
+    margin-right: 4rem;
 }
 
 
-
-.share p{
+.share p {
     writing-mode: vertical-lr;
     text-orientation: upright;
     font-size: 1em;
     margin-left: 0;
 }
-.line{
+
+.line {
     background-color: red;
     height: 3rem;
-    width:0.3rem;
-    margin-left: 0.5rem;
-    margin-top: 0.3em;
-    margin-bottom: 0.3rem;
+    width: 0.3rem;
+    margin: 0.3rem 0 0.3rem 0.5rem;
+
 }
 
-.socialMediaSvg img{
-    width:1.2rem;
+.socialMediaSvg img {
+    width: 1.2rem;
     height: 1.2rem;
     display: block;
-    margin-top:0.5rem;
+    margin-top: 0.5rem;
 }
 
-.leftSide{
+.leftSide {
     margin-top: 11rem;
     margin-left: 3rem;
 }
 
-.rightSide{
-    margin-left:58%;
+.rightSide {
+    margin-left: 58%;
     margin-top: 5.5rem;
 }
-.mainText{
-    color:rgb(0, 0, 0);
-    font-size: 2.5rem;
-    margin-bottom:0px;
-    /* width:70% */
 
+.mainText {
+    color: rgb(0, 0, 0);
+    font-size: 2.5rem;
+    margin-bottom: 0px;
 }
-.rightSide p{
-    
+
+.rightSide p {
     margin-left: 2.8rem;
     font-size: 1.3rem;
-    width:18em;
+    width: 18em;
     text-align: center;
     margin-right: 9rem;
     margin-top: 0.2rem;
-    color:grey;
-    
-    /* text-transform: uppercase; */
+    color: grey;
 }
-.rightSide button{
+
+.rightSide button {
     margin-left: 9.6rem;
-    
+
 }
-/*  */
 
-.btn {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-    text-decoration: none;
-    color: #ffffff;
-    font-size: 18px;
-    border-radius: 5px;
-    width: 160px;
-    height: 40px;
-    font-weight: bold;
-    border-bottom: 4px solid #9e1720;
-    transition: 0.3s;
-    box-shadow: 0px 3px 5px 0px rgba(0, 0, 0, 0.4);
-    background-color: #f44336;
-  }
-  
-  .btn:hover {
-    box-shadow: 0 0 rgba(0, 0, 0, 0.4);
-    border-bottom-width: 2px;
-    transform: translateY(2px);
-  }
-  /*  */
-
-.blocks{
+.blocks {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     padding-top: 7rem;
 }
-.block{
+
+.block {
     background-color: rgb(255, 255, 255);
     height: 200px;
-    width:200px;
+    width: 200px;
     border-radius: 10%;
     position: relative;
     border: 1px solid rgb(188, 188, 188);
 }
-.blockText{
-    text-align: center; 
+
+.blockText {
+    text-align: center;
     font-size: 0.7em;
-    color:grey;
+    color: grey;
     padding-top: 1rem;
 }
 
-.svg{
+.svg {
     margin-left: 2.5rem;
     margin-top: 2rem;
     height: 60%;

@@ -23,7 +23,7 @@ function Pricing(){
                         <li>Quarterly fitness challenges</li>
                     </ul>
                 <div className={styles.bottom}>
-                    <button className={styles.btn}>TRY NOW</button>
+                    <button className="btn">TRY NOW</button>
                     <h2>$29.99/month</h2>
                 </div>
             </div>
@@ -39,7 +39,7 @@ function Pricing(){
 
                 </ul>
                 <div className={styles.bottom}>
-                <button className={styles.btn}>TRY NOW</button>
+                <button className="btn">TRY NOW</button>
                 <h2>$49.99/month</h2>
                 </div>
             </div>
@@ -56,7 +56,7 @@ function Pricing(){
                     <li>Exclusive monthly workouts</li>
                 </ul>
                 <div className={styles.bottom}>
-                <button className={styles.btn}>TRY NOW</button>
+                <button className="btn">TRY NOW</button>
                 <h2>$79.99/month</h2>
                 </div>
             </div>
