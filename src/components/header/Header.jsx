@@ -16,7 +16,7 @@ function Header() {
                 </Link>
 
                 <h1 className={styles.text}>About us</h1>
-                <h1 className={styles.text}>Pricing</h1>
+                <h1 className={styles.text}>Blog</h1>
                 <h1 className={styles.text}>Contact</h1>
             </div>
             <div className={styles.join}>

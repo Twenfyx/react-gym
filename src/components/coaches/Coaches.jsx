@@ -63,7 +63,7 @@ function Coaches() {
 
   return (
     <div className={styles.main}>
-      <div className={styles.header}>
+      <div className="header">
         <div>
           <h1>Training the Champions of Tomorrow</h1>
         </div>

@@ -4,7 +4,7 @@ import styles from './Pricing.module.css'
 function Pricing(){
     return(
         <div className={styles.main}>
-        <div className={styles.header}>
+        <div className="header">
             <div>
                 <h1>Investing in Unprecedented Success</h1>
             </div>
@@ -14,7 +14,6 @@ function Pricing(){
         <div className={styles.blocks}>
             <div className={styles.mainBlock}>
                 <h1>Basic Membership</h1>
-                {/* <div> */}
                     <ul>
                         <li>All Basic Membership perks</li>
                         <li>Exclusive group classes</li>
