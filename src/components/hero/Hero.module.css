@@ -70,6 +70,7 @@
 }
 
 .blocks {
+    margin:0 50px 0 50px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;

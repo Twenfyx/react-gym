@@ -1,6 +1,7 @@
 import React from "react";
 import styles from "./Classes.module.css"
-function Classes() {
+
+const Classes:React.FC =() =>{
     return (
 
         <div className={styles.classes}>

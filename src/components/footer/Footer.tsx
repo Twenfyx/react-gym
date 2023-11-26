@@ -8,7 +8,7 @@ import linkedin from"../../images/footer/linkedin.png"
 import telegram from"../../images/footer/telegram.png"
 import youtube from"../../images/footer/youtube.png"
 
-function Footer(){
+const Footer:React.FC = () => {
     return(
         <div className={styles.main}>
             <div className={styles.container}>

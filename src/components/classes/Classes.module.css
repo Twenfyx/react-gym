@@ -14,7 +14,7 @@
   grid-template: repeat(2, 1fr) / repeat(4, 1fr);
   gap: 14px;
   height: 700px;
-  width: 1300px;
+  width: 1250px;
 }
 
 .photos div {
@@ -30,10 +30,6 @@
   animation-duration: 2s;
 
 }
-
-/* .photos div:hover{
-    filter: grayscale(0%);
-  } */
 
 .div1 {
   grid-area: 1 / 1 / 2 / 3;

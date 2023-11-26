@@ -3,7 +3,7 @@ import styles from './Header.module.css';
 import logo from "../../images/logo/logoRed.svg"
 import { Link } from "react-router-dom";
 
-function Header() {
+const Header:React.FC = () => {
     return (
         <div className={styles.main}>
             <div className={styles.logo}>
@@ -15,8 +15,9 @@ function Header() {
                     <h1 className={styles.text}>Home</h1>
                 </Link>
 
-                <h1 className={styles.text}>About us</h1>
+                <h1 className={styles.text}>About</h1>
                 <h1 className={styles.text}>Blog</h1>
+                <h1 className={styles.text}>Gallery</h1>
                 <h1 className={styles.text}>Contact</h1>
             </div>
             <div className={styles.join}>

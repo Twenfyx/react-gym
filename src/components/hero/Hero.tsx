@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './Hero.module.css'
-import Header from "../header/Header";
+import Header from "../header/Header.tsx";
 
 import machineSvg from "../../images/svg/machine.svg"
 import treadmilSvg from "../../images/svg/treadmill.svg"
@@ -11,7 +11,9 @@ import instagramSvg from "../../images/socialMedia/instagram.svg"
 import facebookSvg from "../../images/socialMedia/facebook.svg"
 import discordSvg from "../../images/socialMedia/discord.svg"
 
-function Hero() {
+import { Link } from "react-router-dom";
+
+const Hero:React.FC=() =>{
     return (
         <div className={styles.main}>
             <div className={styles.photo}>
@@ -35,7 +37,7 @@ function Hero() {
                         <h1 className={styles.mainText}>JOIN OUR COMMUNITY</h1>
                         <p >Our gym is not just a place to work out<br />
                             it's a destination for personal <br /> growth and success</p>
-                        <button className="btn">JOIN NOW</button>
+                     <Link to='login'> <button className="btn">JOIN NOW</button> </Link>
                     </div>
                 </div>
 
