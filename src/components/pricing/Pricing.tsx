@@ -23,8 +23,10 @@ const Pricing: React.FC = () => {
                         <li>Quarterly fitness challenges</li>
                     </ul>
                     <div className={styles.bottom}>
-                        <button className="btn">TRY NOW</button>
+                
                         <h2>$29.99/month</h2>
+                        <button className="btn">TRY NOW</button>
+                  
                     </div>
                 </div>
                 <div className={styles.mainBlock}>
@@ -38,8 +40,8 @@ const Pricing: React.FC = () => {
                         <li>Quarterly fitness challenges</li>
                     </ul>
                     <div className={styles.bottom}>
-                        <button className="btn">TRY NOW</button>
                         <h2>$49.99/month</h2>
+                        <button className="btn">TRY NOW</button>
                     </div>
                 </div>
                 <div className={styles.mainBlock}>
@@ -55,8 +57,8 @@ const Pricing: React.FC = () => {
                         <li>Exclusive monthly workouts</li>
                     </ul>
                     <div className={styles.bottom}>
-                        <button className="btn">TRY NOW</button>
                         <h2>$79.99/month</h2>
+                        <button className="btn">TRY NOW</button>
                     </div>
                 </div>
             </div>
