@@ -5,7 +5,9 @@ import Map from "../../components/map/Map.tsx";
 import Footer from "../../components/footer/Footer.tsx";
 
 
+
 const LogIn:React.FC = () => {
+  window.scrollTo(0, 0);
   return (
     <div className={styles.main}>
       <Header />
@@ -34,7 +36,7 @@ const LogIn:React.FC = () => {
         </div>
       </div>
     {/* <Newsletter /> */}
-        <Map />
+        {/* <Map /> */}
         <Footer />
     </div>
   );

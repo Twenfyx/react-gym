@@ -1,7 +1,10 @@
 .main {
     margin: 0;
+    /* height: 120vh; */
     margin-bottom: 200px;
+
 }
+
 .blocks {
     display: flex;
     justify-content: space-evenly;
@@ -9,8 +12,6 @@
 }
 
 .blocks .mainBlock {
-    display: flex;
-    flex-direction: column;
     width: 16.3rem;
     height: 32rem;
     border: 5px solid rgb(116, 116, 116);
@@ -26,16 +27,20 @@
     margin-left: -10px;
 }
 
+.blocks h2 {
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+}
+
 .bottom {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: auto;
-    margin-bottom: 2rem;
+    justify-content: center;
+
+    margin-bottom: 10px;
 }
-.bottom h2{
+
+.bottom button {
     position: absolute;
-}
-.bottom button{
-    /* position: absolute; */
 }

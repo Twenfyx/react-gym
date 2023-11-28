@@ -6,7 +6,7 @@ const Classes:React.FC =() =>{
 
         <div className={styles.classes}>
 
-
+ 
             <div className="header">
                 <div>
                     <h1>The Road to Athletic Success Starts Here</h1>
