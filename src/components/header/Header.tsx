@@ -18,8 +18,11 @@ const Header:React.FC = () => {
                 <h1 className={styles.text}>About</h1>
                 <h1 className={styles.text}>Blog</h1>
                 <h1 className={styles.text}>Gallery</h1>
-                <h1 className={styles.text}>Shedule</h1>
-                <h1 className={styles.text}>Contact</h1>
+                
+                <Link to="/schedule">
+                    <h1 className={styles.text}>Schedule</h1>
+                </Link>
+                
             </div>
             <div className={styles.join}>
                 <Link to="/login">

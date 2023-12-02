@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./Classes.module.css"
+import { Link } from 'react-router-dom';
 
 const Classes:React.FC =() =>{
     return (
@@ -12,11 +13,12 @@ const Classes:React.FC =() =>{
                     <h1>The Road to Athletic Success Starts Here</h1>
                 </div>
                 <h2>Our Classes</h2>
-
-
             </div>
+            
+            <Link to= '/schedule'>
             <div className={styles.container}>
                 <div className={styles.photos}>
+                     
                     <div className={styles.div1}>
                         <div className={styles.photoText}>
                             <h1>Yoga</h1>
@@ -53,9 +55,10 @@ const Classes:React.FC =() =>{
                             <p>Monday:5:00pm-7:00pm</p>
                         </div>
                     </div>
-
+                    
                 </div>
             </div>
+            </Link>
         </div>
 
     )

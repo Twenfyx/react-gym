@@ -1,7 +1,6 @@
 import React from "react";
 import Header from "../../components/header/Header.tsx";
 import styles from './LogIn.module.css'
-import Map from "../../components/map/Map.tsx";
 import Footer from "../../components/footer/Footer.tsx";
 
 
@@ -35,8 +34,7 @@ const LogIn:React.FC = () => {
           </div>
         </div>
       </div>
-    {/* <Newsletter /> */}
-        {/* <Map /> */}
+
         <Footer />
     </div>
   );

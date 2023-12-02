@@ -1,0 +1,94 @@
+.container{
+	margin-top: -70px;
+	display: flex;
+	justify-content: center;
+}
+.body{
+	margin: 0;
+	height: 100vh;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	width:80%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}  
+
+.week{
+	width:90%;
+	
+	margin-top: 3rem;
+	display: flex;
+	justify-content: space-evenly;
+}
+.week div{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width:7rem;
+	height: 2.5rem;
+	border: 1px solid rgb(184, 184, 184);
+	border-radius: 30px;
+	font-size: 1rem;
+	font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+	font-weight: bold;
+	transition: background-color 0.3s, color 0.3s;
+	margin-bottom:50px;
+}
+.week div:hover{
+	background-color: red;
+	color:white;
+	cursor:pointer;
+
+}
+
+.classes{
+	width:100%;
+	margin-bottom: 10px;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	background: radial-gradient(circle at 0% 0.5%, rgb(241, 241, 242) 0.1%, rgb(224, 226, 228) 100.2%);}
+.classes div{
+	margin-bottom:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height:7rem;
+	width: 14rem;
+
+	
+}
+.classes .mainText{
+	font-weight: bold;
+	font-size: 1.5rem;
+}
+.classes .title{
+	margin-bottom: 0.5rem;
+	color: rgb(87, 87, 87);
+}
+
+.selectedDay{
+	background-color: red;
+	color:white;
+}
+
+.button{
+	width: 70%;
+	height: 40px;
+	margin: 10px auto;
+	color: #fff;
+    background: #ff0000;
+	font-size: 1em;
+	font-weight: bold;
+	margin-top: 20px;
+	outline: none;
+	border: none;
+	border-radius: 30px;
+	transition: .2s ease-in;
+	cursor: pointer;
+}
+button:hover{
+	background: #8a3b3b;
+}
