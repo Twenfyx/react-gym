@@ -2,7 +2,7 @@ import React from 'react'
 import styles from './CoachesBanner.module.css'
 import { Link } from 'react-router-dom';
 
-const CoachBanner:React.FC = ()=> {
+function CoachBanner () {
     return (
         <div className={styles.main}>
             <div>

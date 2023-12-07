@@ -1,12 +1,12 @@
 import './App.css';
 import React from 'react';
-import Home from './pages/Home/Home.tsx';
+import Home from './pages/Home/Home.jsx';
 import { Routes, Route } from 'react-router-dom';
-import LogIn from './pages/LogIn/LogIn.tsx';
-import Schedule from './pages/Schedule/Schedule.tsx';
+import LogIn from './pages/LogIn/LogIn.jsx';
+import Schedule from './pages/Schedule/Schedule.jsx';
 
 
-const App:React.FC = () => {
+function App () {
   return (
     <Routes>
       <Route path="/" element={<Home />} />

@@ -11,13 +11,8 @@ import instagram from "../../images/footer/instagram.png";
 import facebook from "../../images/footer/facebook.png";
 import discord from "../../images/footer/discord.png";
 
-interface Coach{
-  img:string;
-  name:string;
-  description:string;
-}
 
-let coachesData:Coach[] = [
+let coachesData = [
   {
     img: coach1Img,
     name: "Sarah Rodriguez",
@@ -51,9 +46,9 @@ let coachesData:Coach[] = [
 ];
 
 function Coaches() {
-  const [first, setFirst] = useState<number>(0);
-  const [second, setSecond] = useState<number>(1);
-  const [third, setThird] = useState<number>(2);
+  const [first, setFirst] = useState(0);
+  const [second, setSecond] = useState(1);
+  const [third, setThird] = useState(2);
 
   const prev = () => {
     setFirst((first - 1 + coachesData.length) % coachesData.length);

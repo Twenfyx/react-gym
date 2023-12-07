@@ -1,7 +1,7 @@
 import React from "react";
 import styles from './Map.module.css';
 
-const Map: React.FC = () => {
+function Map(){
     return (
         <div className={styles.main}>
             <iframe

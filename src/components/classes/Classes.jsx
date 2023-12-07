@@ -2,7 +2,7 @@ import React from "react";
 import styles from "./Classes.module.css"
 import { Link } from 'react-router-dom';
 
-const Classes:React.FC =() =>{
+function Classes(){
     return (
 
         <div className={styles.classes}>

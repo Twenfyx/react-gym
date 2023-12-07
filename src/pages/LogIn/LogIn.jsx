@@ -1,11 +1,11 @@
 import React from "react";
-import Header from "../../components/header/Header.tsx";
+import Header from "../../components/header/Header.jsx";
 import styles from './LogIn.module.css'
-import Footer from "../../components/footer/Footer.tsx";
+import Footer from "../../components/footer/Footer.jsx";
 
 
 
-const LogIn:React.FC = () => {
+function LogIn ()  {
   window.scrollTo(0, 0);
   return (
     <div className={styles.main}>

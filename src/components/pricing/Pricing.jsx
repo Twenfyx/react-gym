@@ -2,7 +2,7 @@ import React from "react";
 import styles from './Pricing.module.css';
 
 
-const Pricing: React.FC = () => {
+function Pricing () {
     return (
         <div className={styles.main}>
             <div className="header">

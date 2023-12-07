@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Newsletter.module.css";
 
-const Newsletter:React.FC = () => {
+function Newsletter () {
     return (
         <div className={styles.main}>
             <div className={styles.container}>

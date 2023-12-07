@@ -2,7 +2,7 @@ import React from "react";
 import styles from './Statistics.module.css'
 
 
-const Statistics:React.FC = () => {
+function Statistics (){
     return(
             <div className={styles.container}>
                 <div>

@@ -1,17 +1,11 @@
-import React, { useState , useEffect} from "react";
-import styles from './Schedule.module.css'; 
-import Header from "../../components/header/Header.tsx";
-import Footer from "../../components/footer/Footer.tsx";
+import React, { useState, useEffect } from "react";
+import styles from './Schedule.module.css';
+import Header from "../../components/header/Header.jsx";
+import Footer from "../../components/footer/Footer.jsx";
 import { Link } from "react-router-dom";
 
-interface Classes {
-  day: string;
-  className: string;
-  time: string;
-  trainer: string;
-}
 
-const staticClasses: Record<string, Classes[]> = {
+const staticClasses = {
   Monday: [
     { day: 'Monday', className: 'Fitness', time: '9:00am - 10:00am', trainer: 'Sarah Rodriquez' },
     { day: 'Monday', className: 'Boxing', time: '11:00am - 12:00am', trainer: 'Alex Turner' },
@@ -49,8 +43,8 @@ const staticClasses: Record<string, Classes[]> = {
 
 const MAX_CLASSES_PER_DAY = 4;
 
-const Schedule: React.FC = () => {
-  const [selectedDay, setSelectedDay] = useState<string | null>(null);
+function Schedule ()  {
+  const [selectedDay, setSelectedDay] = useState(null);
   const [isInitialRender, setIsInitialRender] = useState(true);
   useEffect(() => {
     if (isInitialRender) {
@@ -61,23 +55,23 @@ const Schedule: React.FC = () => {
       setSelectedDay('Monday');
     }
     console.log('Page loaded');
-  }, [selectedDay]); 
+  }, [selectedDay]);
 
-  const handleDayClick = (day: string): void => {
+  const handleDayClick = (day) => {
     setSelectedDay(day);
   };
 
 
 
-  return (    
+  return (
     <div className={styles.main}>
       <Header />
       <div className="header">
-                <div>
-                    <h1>Transforming Moments into Productivity</h1>
-                </div>
-                <h2>Our Schedule</h2>
-            </div>
+        <div>
+          <h1>Transforming Moments into Productivity</h1>
+        </div>
+        <h2>Our Schedule</h2>
+      </div>
       <div className={styles.container}>
         <div className={styles.body}>
           <div className={styles.week}>
@@ -106,11 +100,11 @@ const Schedule: React.FC = () => {
                 <span className={styles.mainText}>{classItem.trainer}</span>
               </div>
 
-                <Link to = '/login'>
-              <div>
-                <button className={styles.button}>Join Now</button>
+              <Link to='/login'>
+                <div>
+                  <button className={styles.button}>Join Now</button>
                 </div>
-                </Link>
+              </Link>
             </div>
 
           ))}

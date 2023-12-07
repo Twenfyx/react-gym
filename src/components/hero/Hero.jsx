@@ -1,6 +1,6 @@
 import React from "react";
 import styles from './Hero.module.css'
-import Header from "../header/Header.tsx";
+import Header from "../header/Header.jsx";
 
 import machineSvg from "../../images/svg/machine.svg"
 import treadmilSvg from "../../images/svg/treadmill.svg"
@@ -13,7 +13,7 @@ import discordSvg from "../../images/socialMedia/discord.svg"
 
 import { Link } from "react-router-dom";
 
-const Hero:React.FC=() =>{
+function Hero(){
     return (
         <div className={styles.main}>
             <div className={styles.photo}>
