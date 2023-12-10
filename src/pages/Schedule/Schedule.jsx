@@ -10,7 +10,7 @@ const staticClasses = {
     { day: 'Monday', className: 'Fitness', time: '9:00am - 10:00am', trainer: 'Sarah Rodriquez' },
     { day: 'Monday', className: 'Boxing', time: '11:00am - 12:00am', trainer: 'Alex Turner' },
     { day: 'Monday', className: 'Swimming', time: '1:00pm - 2:00pm', trainer: 'Marcus Carter' },
-    { day: 'Monday', className: 'Jogging', time: '3:00pm - 6:pm', trainer: 'Jessica Nguyen' },
+    { day: 'Monday', className: 'Jogging', time: '3:00pm - 6:00pm', trainer: 'Jessica Nguyen' },
   ],
   Tuesday: [
     { day: 'Tuesday', className: 'Yoga', time: '8:00am - 9:00am', trainer: 'Sarah Johnson' },

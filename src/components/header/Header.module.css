@@ -19,6 +19,7 @@
 }
 
 .text{
+    margin-right: 15px;
     padding-top: 0.4rem;
     font-size: 1.2em;
     cursor: pointer;

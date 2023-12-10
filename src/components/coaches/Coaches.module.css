@@ -29,8 +29,13 @@
 .mainCoach {
     width: 18rem;
     height: 100%;
-    transition: width 0.3s ease;
+    
 
+}
+
+.mainCoach:hover{
+    /* transform: translate(150px,0); */
+    /* transition: transform 0.7s ease; */
 }
 
 .name {
@@ -87,8 +92,11 @@
 /* other */
 .anotherCoach {
     filter: blur(10px);
-    width: 25vh;
-    height: 50vh;
+    width: 12rem;
+    height: 23rem;
+    
+    /* width: 25vh;
+    height: 50vh; */
     background-color: rgb(255, 0, 0);
 }
 
@@ -100,7 +108,6 @@
 }
 
 .anotherCoach .description {
-    /* margin:9px; */
     font-size: 0rem;
 }
 
