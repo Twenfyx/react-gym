@@ -39,9 +39,19 @@
     height: 10px;
     border-radius: 100px;
     transition: opacity ease 250ms;
+	cursor:pointer;
 }
 
 .sliderNav div:hover{
     background-color: rgb(255, 0, 0);
 }
 
+.sliderNav div.active {
+	background-color: rgb(255, 0, 0);
+	transform: scale(1.2);
+	transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+  }
+
+ 
+
+  

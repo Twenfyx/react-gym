@@ -1,0 +1,86 @@
+.body {
+    /* width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+}
+
+.layout {
+    /* width: 70%; */
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+
+.blocks{
+    /* width:100%; */
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 100px;
+}
+
+.blocks .block{
+    margin:0 0 80px 0;
+    width:700px;
+    height:650px;
+}
+
+.block .image{
+    margin: 0;
+}
+
+img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.block .date{
+    color:grey;
+    font-weight: 500;
+
+}
+ 
+.block .info{
+    /* margin-left: 10px; */
+}
+
+.block .title{
+    font-family: Montserrat, sans-serif;
+    margin: 10px 0 10px 0;
+    font-size: 35px;
+    font-weight: 600;
+
+}
+
+.block .description{
+    color: rgb(108, 108, 108);
+    margin-top: 0px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* .miniBlock{
+    width:200px;
+    height: 200px;
+    border:1px solid black;
+} */
+.searchBlock{
+    display: flex;
+    justify-content: center;
+}
+
+.searchBlock img{
+    width:40px;
+    height: 40px;
+    background-color: red;
+}
+.search{
+    margin-top: 0;
+    border: 1px solid black;
+}
+
+.categories{
+    height: 40px;
+    width:90px;
+}

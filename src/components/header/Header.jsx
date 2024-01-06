@@ -15,8 +15,10 @@ function Header () {
                     <h1 className={styles.text}>Home</h1>
                 </Link>
 
-                <h1 className={styles.text}>About</h1>
-                <h1 className={styles.text}>Blog</h1>
+                <Link to="/blog">
+                    <h1 className={styles.text}>Blog</h1>
+                </Link>
+                
               
                 <Link to="/gallery">
                     <h1 className={styles.text}>Gallery</h1>
