@@ -6,6 +6,10 @@ import img1 from "../../images/blog/1.jpg"
 import img2 from "../../images/blog/2.jpg"
 import img3 from "../../images/blog/3.jpg"
 import img4 from "../../images/blog/4.jpg"
+import add1 from "../../images/blog/add1.jpg"
+import add2 from "../../images/blog/add2.jpg"
+import add3 from "../../images/blog/add3.jpg"
+import addPhoto from "../../images/blog/addPhoto.jpg"
 // import search from "../../images/blog/search.png"
 
 const posts = {
@@ -72,31 +76,48 @@ function Blog() {
                             </div>
                         ))}
                     </div>
-                    {/* <div className={styles.miniBlocks}>
-                <div className={styles.miniBlock}> 
-                <div className={styles.miniImg}> 
-                    <img src={img1} alt="" />
-                </div>
-                <div className={styles.minititle}></div>
-                </div>
-            </div> */}
-                    {/* <div className={styles.searchBlock}>
-            <input className={styles.search} type="text" placeholder="Search.."/>
-            <img src={search} alt="" />
-            </div>*/}
-                    <select className={styles.categories}>
-                        <option value="all">New</option>
-                        <option value="option2">Meditation</option>
-                        <option value="option3">Sport</option>
-                    </select>
+                    <div>
+                        {/* <div className={styles.selectWrapper}>
+                            <h2>Category:</h2>
+                            <select className={styles.categories}>
+                                <option value="all">New</option>
+                                <option value="option2">Meditation</option>
+                                <option value="option3">Sport</option>
+                            </select>
 
-                    {/* <option value="option1">Option 1</option>
-<option value="option2">Option 2</option>
-<option value="option3">Option 3</option> */}
+                        </div> */}
+                        <div className={styles.ads}>
+                            <h2>You may also like:</h2>
 
+                            <div className={styles.blockAdd}>
+                                <img src={add1} alt="" />
+                                <div>
+                                    <p className={styles.titleAdd}>How to lose 10kg?</p>
+                                    <p className={styles.descriptionAdd}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus debitis, quo sed velit explicabo delectus expedita saepe esse mollitia dolorum quaerat doloremque minus consectetur repellendus adipisci, harum eligendi officiis! </p>
+                                </div>
+                            </div>
 
+                            <div className={styles.blockAdd}>
+                                <img src={add2} alt="" />
+                                <div>
+                                    <p className={styles.titleAdd}>10cm+ to your biceps</p>
+                                    <p className={styles.descriptionAdd}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus debitis, quo sed velit explicabo delectus expedita saepe esse mollitia dolorum quaerat doloremque minus consectetur repellendus adipisci, harum eligendi officiis! </p>
+                                </div>
+                            </div>
 
-
+                            <div className={styles.blockAdd}>
+                                <img src={add3} alt="" />
+                                <div>
+                                    <p className={styles.titleAdd}>How to live longer?</p>
+                                    <p className={styles.descriptionAdd}>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque possimus debitis, quo sed velit explicabo delectus expedita saepe esse mollitia dolorum quaerat doloremque minus consectetur repellendus adipisci, harum eligendi officiis! </p>
+                                </div>
+                            </div>
+                            <div className={styles.addSale}>
+                            <img src={addPhoto} alt="" />
+                            </div>
+                            
+                        </div>
+                    </div>
                 </div>
 
             </div>

@@ -13,7 +13,7 @@
 }
 
 
-.blocks{
+.blocks {
     /* width:100%; */
     display: flex;
     align-items: center;
@@ -21,31 +21,32 @@
     margin-bottom: 100px;
 }
 
-.blocks .block{
-    margin:0 0 80px 0;
-    width:700px;
-    height:650px;
+.blocks .block {
+    margin: 0 0 80px 0;
+    width: 700px;
+    height: 650px;
 }
 
-.block .image{
+.block .image {
     margin: 0;
 }
 
-img{
+img {
     max-width: 100%;
     max-height: 100%;
 }
-.block .date{
-    color:grey;
+
+.block .date {
+    color: grey;
     font-weight: 500;
 
 }
- 
-.block .info{
+
+.block .info {
     /* margin-left: 10px; */
 }
 
-.block .title{
+.block .title {
     font-family: Montserrat, sans-serif;
     margin: 10px 0 10px 0;
     font-size: 35px;
@@ -53,7 +54,7 @@ img{
 
 }
 
-.block .description{
+.block .description {
     color: rgb(108, 108, 108);
     margin-top: 0px;
     font-size: 20px;
@@ -65,22 +66,88 @@ img{
     height: 200px;
     border:1px solid black;
 } */
-.searchBlock{
+.searchBlock {
     display: flex;
     justify-content: center;
 }
 
-.searchBlock img{
-    width:40px;
+.searchBlock img {
+    width: 40px;
     height: 40px;
     background-color: red;
 }
-.search{
+
+.search {
     margin-top: 0;
     border: 1px solid black;
 }
 
-.categories{
-    height: 40px;
-    width:90px;
+
+
+
+/* .categories {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+  }
+   */
+
+.selectWrapper {
+    display: flex;
+    align-items: flex-start;
+}
+
+.selectWrapper h2 {
+    margin: 0 10px 0 0;
+}
+
+.ads {
+
+    margin-top: 0;
+    /* background-color: rgb(216, 216, 216); */
+    width: 420px;
+    height: 700px;
+    text-align: center;
+}
+
+.ads h2 {
+    margin-top: -8px;
+}
+
+.blockAdd {
+    cursor: pointer;
+    width: 100%;
+    display: flex;
+    align-content: flex-start;
+    border: 1px solid gray;
+    /* border-radius: 20px; */
+    margin-bottom: 50px;
+}
+
+.blockAdd img {
+    object-fit: cover;
+    width: 150px;
+    height: 150px;
+    /* border-radius: 20px; */
+}
+
+.titleAdd {
+    font-family: Montserrat, sans-serif;
+    margin: 10px 0 10px 0;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.descriptionAdd {
+    color: rgb(108, 108, 108);
+    margin-top: 0px;
+    font-size: 12px;
+    font-weight: 500;
 }
