@@ -1,20 +1,10 @@
-.body {
-    /* width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center; */
-}
-
 .layout {
-    /* width: 70%; */
     display: flex;
-    /* align-items: center; */
     justify-content: space-around;
 }
 
 
 .blocks {
-    /* width:100%; */
     display: flex;
     align-items: center;
     flex-direction: column;
@@ -42,10 +32,6 @@ img {
 
 }
 
-.block .info {
-    /* margin-left: 10px; */
-}
-
 .block .title {
     font-family: Montserrat, sans-serif;
     margin: 10px 0 10px 0;
@@ -61,57 +47,8 @@ img {
     font-weight: 500;
 }
 
-/* .miniBlock{
-    width:200px;
-    height: 200px;
-    border:1px solid black;
-} */
-.searchBlock {
-    display: flex;
-    justify-content: center;
-}
-
-.searchBlock img {
-    width: 40px;
-    height: 40px;
-    background-color: red;
-}
-
-.search {
-    margin-top: 0;
-    border: 1px solid black;
-}
-
-
-
-
-/* .categories {
-    appearance: none;
-    -webkit-appearance: none;
-    -moz-appearance: none;
-    width: 200px;
-    padding: 10px;
-    font-size: 16px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    cursor: pointer;
-    outline: none;
-  }
-   */
-
-.selectWrapper {
-    display: flex;
-    align-items: flex-start;
-}
-
-.selectWrapper h2 {
-    margin: 0 10px 0 0;
-}
-
 .ads {
-
     margin-top: 0;
-    /* background-color: rgb(216, 216, 216); */
     width: 420px;
     height: 700px;
     text-align: center;
@@ -150,4 +87,52 @@ img {
     margin-top: 0px;
     font-size: 12px;
     font-weight: 500;
+}
+
+
+@media only screen and (max-width: 1200px) {
+    .layout {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .adsBlock {
+        display: flex;
+        justify-content: center;
+    }
+
+    .ads {
+        height: 100%;
+        width: 85%;
+    }
+
+    .addSale {
+        margin-bottom: 25px;
+    }
+
+    .blocks .block {
+        width: 85%;
+    }
+
+    .descriptionAdd {
+        margin-bottom: 0;
+    }
+
+    .blockAdd {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .titleAdd {
+        margin: 0;
+    }
+
+}
+
+@media only screen and (max-width: 380px) {
+    .blockAdd {
+        border: none;
+    }
 }

@@ -6,14 +6,10 @@
 
 .container {
     display: flex;
-    /* justify-content: space-evenly; */
+
     height: 90vh;
     color: rgb(0, 0, 0);
     margin-right: 4rem;
-}
-
-.share{
-    /* margin-top: -40px; */
 }
 
 .share p {
@@ -70,12 +66,12 @@
 }
 
 .blocks {
-    margin:0 50px 0 50px;
+    margin: 0 50px 0 50px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* padding-top: 6rem;  - for chrome*/ 
-    padding-top: 7rem; 
+    /* padding-top: 6rem;  - for chrome*/
+    padding-top: 7rem;
 }
 
 .block {
@@ -98,4 +94,55 @@
     margin-left: 2.5rem;
     margin-top: 2rem;
     height: 60%;
+}
+
+@media only screen and (max-width: 480px) {
+    .photo {
+        background: url("../../images/main/6.png") center center/cover;
+        height: 100%;
+        width: 100%;
+    }
+    .container {
+        display: flex;
+        justify-content: center;
+        height: 100vh;
+        color: rgb(0, 0, 0);
+        margin-right: 0rem;
+    }
+    
+    .leftSide {
+        display: none;
+    }
+
+    .rightSide {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: 0;
+        margin-top: 16.5rem;
+    }
+
+    .mainText {
+        color: rgb(0, 0, 0);
+        font-size: 1.5rem;
+        margin-bottom: 0px;
+    }
+
+    .rightSide p {
+        margin:7px 0;
+        font-size: 1.3rem;
+        width: 18em;
+    }
+
+    .rightSide button {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 1090px) {
+    .blocks {
+        display: none;
+    }
 }

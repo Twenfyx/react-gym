@@ -18,7 +18,7 @@ function Hero(){
         <div className={styles.main}>
             <div className={styles.photo}>
                 <Header />
-
+ 
                 <div className={styles.container}>
                     <div className={styles.leftSide}>
                         <div className={styles.share}>

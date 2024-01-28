@@ -139,21 +139,23 @@
     justify-content: space-evenly;
     margin-top: 20px;
     padding-bottom: 100px;
+    /* margin-top: -300px; */
 
 }
-
-.button {
-    text-decoration: none;
-    color: white;
-    background: #ff0019;
-    padding: 7px 10px 10px;
-    border-radius: 4px;
-    font-size: 19px;
-    border-radius: 15px;
-    border: none;
-    outline: none;
+.mainRow{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.button:hover {
-    background: rgb(220 53 69 / 85%);
+.arrow{
+    cursor: pointer;
+    /* margin:20px; */
 }
+
+@media only screen and (max-width: 720px) {
+    .anotherCoach{
+        display: none;
+    }
+ }
+

@@ -2,6 +2,7 @@ import React from "react";
 import styles from "./Classes.module.css"
 import { Link } from 'react-router-dom';
 
+
 function Classes(){
     return (
 
@@ -22,37 +23,37 @@ function Classes(){
                     <div className={styles.div1}>
                         <div className={styles.photoText}>
                             <h1>Yoga</h1>
-                            <p>Monday:8:00am-10:00am</p>
+                            <p>Monday: 8:00am-10:00am</p>
                         </div>
-                    </div>
+                    </div> 
                     <div className={styles.div2}>
                         <div className={styles.photoText}>
                             <h1>Workout</h1>
-                            <p>Sunday:9:00am-1:00pm</p>
+                            <p>Sunday: 9:00am-1:00pm</p>
                         </div>
                     </div>
                     <div className={styles.div3}>
                         <div className={styles.photoText}>
                             <h1>Cardio</h1>
-                            <p>Friday:8:00am-10:00am</p>
+                            <p>Friday: 8:00am-10:00am</p>
                         </div>
                     </div>
                     <div className={styles.div4}>
                         <div className={styles.photoText}>
                             <h1>Karate</h1>
-                            <p>Thursday:1:00pm-2:00pm</p>
+                            <p>Thursday: 1:00pm-2:00pm</p>
                         </div>
                     </div>
                     <div className={styles.div5}>
                         <div className={styles.photoText}>
                             <h1>Swimming</h1>
-                            <p>Tuesday:7:00am-8:00am</p>
+                            <p>Tuesday: 7:00am-8:00am</p>
                         </div>
                     </div>
                     <div className={styles.div6}>
                         <div className={styles.photoText}>
                             <h1>Lifting</h1>
-                            <p>Monday:5:00pm-7:00pm</p>
+                            <p>Monday: 5:00pm-7:00pm</p>
                         </div>
                     </div>
                     

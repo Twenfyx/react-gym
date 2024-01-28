@@ -10,7 +10,6 @@ import add1 from "../../images/blog/add1.jpg"
 import add2 from "../../images/blog/add2.jpg"
 import add3 from "../../images/blog/add3.jpg"
 import addPhoto from "../../images/blog/addPhoto.jpg"
-// import search from "../../images/blog/search.png"
 
 const posts = {
     post1: [
@@ -76,16 +75,7 @@ function Blog() {
                             </div>
                         ))}
                     </div>
-                    <div>
-                        {/* <div className={styles.selectWrapper}>
-                            <h2>Category:</h2>
-                            <select className={styles.categories}>
-                                <option value="all">New</option>
-                                <option value="option2">Meditation</option>
-                                <option value="option3">Sport</option>
-                            </select>
-
-                        </div> */}
+                    <div className={styles.adsBlock}>
                         <div className={styles.ads}>
                             <h2>You may also like:</h2>
 

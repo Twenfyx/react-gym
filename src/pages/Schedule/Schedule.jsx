@@ -81,7 +81,7 @@ function Schedule ()  {
               </div>
 
             ))}
-          </div>
+          </div> 
 
 
           {selectedDay && staticClasses[selectedDay]?.slice(0, MAX_CLASSES_PER_DAY).map((classItem, index) => (

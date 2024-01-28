@@ -11,6 +11,9 @@ import instagram from "../../images/footer/instagram.png";
 import facebook from "../../images/footer/facebook.png";
 import discord from "../../images/footer/discord.png";
 
+import leftArrow from '../../images/icons/left-arrow.png'
+import rightArrow from '../../images/icons/right-arrow.png'
+
 
 let coachesData = [
   {
@@ -96,7 +99,8 @@ function Coaches() {
             </div>
           </div>
         </div>
-
+        <div className={styles.mainRow}>
+        <img src={leftArrow} alt="" onClick={prev} className={styles.arrow}/> 
         <div className={styles.mainCoach}>
           <div className={styles.info1}>
             <img
@@ -108,7 +112,7 @@ function Coaches() {
           <div className={styles.between}>
             <div className={styles.line}></div>
           </div>
-
+        
           <div className={styles.info2}>
             <p className={styles.name}>{coachesData[second].name}</p>
             <p className={styles.description}>
@@ -121,7 +125,8 @@ function Coaches() {
             </div>
           </div>
         </div>
-
+        <img src={rightArrow} alt="" onClick={prev} className={styles.arrow}/> 
+        </div>
         <div className={styles.anotherCoach}>
           <div className={styles.info1}>
             <img
@@ -149,8 +154,8 @@ function Coaches() {
       </div>
 
     <div className={styles.buttons}>
-      <button  className={styles.button} onClick={prev}>&#8592;  Prev </button>
-        <button  className={styles.button} onClick={next}>Next &rarr;</button>
+       {/* <img src={leftArrow} alt="" onClick={prev}/> 
+       <img src={rightArrow} alt="" onClick={next}/> */}
         </div>
     </div>
   );

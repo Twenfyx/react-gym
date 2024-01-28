@@ -1,13 +1,11 @@
-
-
 .main{
     display: flex;
     justify-content: space-around;
+    align-items: center;
     padding-top: 0.4rem;
-    /* background-color: black; */
-    color:rgb(10, 10, 10);   
-    
+    color:rgb(10, 10, 10);       
 }
+
 .navigation{
     width: 50vh;
     display: flex;
@@ -19,12 +17,11 @@
 }
 
 .text{
-    margin-right: 15px;
-    padding-top: 0.4rem;
+    /* margin-right: 15px; */
+    /* padding-top: 0.4rem; */
     font-size: 1.2em;
     cursor: pointer;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-
 }
 
 .text:hover{
@@ -35,3 +32,80 @@
     color:red;
 }
 
+.menuSvg{
+    cursor: pointer;
+    width:70px;
+    height:80px;
+}
+
+
+.menuBlock{
+    /* display: none; */
+    /* background-color: green; */
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    background-color: rgb(255, 0, 0);
+    z-index: 3;
+    top: 0; 
+  }
+  .menuBlock h1{
+    color:white;
+    font-size: 25px;
+  }
+  .menuNav{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+
+  .closeSvg{
+    margin:20px;
+    display: flex;
+    justify-content: end;
+  }
+
+  .closeSvg div{
+    width: 50px;
+  }
+
+  .special{
+    display:block;
+    
+    /* background-color: green; */
+
+  }
+
+  .hamburger {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    /* left: 0; */
+    background-color: rgb(255, 38, 38);
+    z-index: 4;
+    transition: left 0.5s ease-in-out;
+}
+.hamburger h1{
+    color:white
+}
+
+.closed {
+    left: -110%;
+}
+
+.open {
+    left: 0;
+}
+
+
+
+@media only screen and (max-width: 600px) { 
+    .join{
+        font-size: 20px;
+    }
+   
+   }
